@@ -70,6 +70,16 @@ const portfolioProjects = [
     link: '#',
     github: '#',
   },
+  {
+    id: 6,
+    title: 'Video Production & Editing Suite',
+    client: 'CreativeStudio',
+    category: 'Video & Content',
+    image: '/images/portfolio/saas-dashboard.jpg',
+    description: 'Designed a suite of video production tools with real-time collaboration features for creative teams.',
+    link: '#',
+    github: '#',
+  },
 ];
 
 export default function PortfolioPage() {
