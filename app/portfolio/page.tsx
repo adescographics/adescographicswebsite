@@ -13,9 +13,9 @@ const portfolioProjects = [
   {
     id: 1,
     title: 'E-Commerce Platform Redesign',
-    client: 'TechStore Inc',
+    client: 'TechStre Inc',
     category: 'Web Design & Development',
-    image: '/images/portfolio/ecommerce-platform.jpg',
+    image: '/images/portfolio/saas-dashboard.jpg',
     description: 'Complete redesign and rebuild of a major e-commerce platform, resulting in 40% increase in conversions.',
     link: '#',
     github: '#',
