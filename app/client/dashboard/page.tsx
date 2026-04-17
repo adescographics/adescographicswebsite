@@ -25,9 +25,9 @@ const barChartData = [
 ];
 
 const pieChartData = [
-  { name: 'Completed', value: 45, color: '#eca8d6' },
-  { name: 'In Progress', value: 30, color: '#a78bfa' },
-  { name: 'Pending', value: 25, color: '#64748b' },
+  { name: 'Completed', value: 45, color: '#009e28' },
+  { name: 'In Progress', value: 30, color: '#1a0883' },
+  { name: 'Pending', value: 25, color: '#c5200a' },
 ];
 
 const areaChartData = [
@@ -42,7 +42,7 @@ const areaChartData = [
 
 export default function DashboardPage() {
   const [showOverlay, setShowOverlay] = useState(true);
-  const [animateCharts, setAnimateCharts] = useState(false);
+  const [animateCharts, setAnimateCharts] = useState(true);
 
   useEffect(() => {
     const timer = setTimeout(() => setAnimateCharts(true), 300);

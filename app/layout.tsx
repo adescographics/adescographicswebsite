@@ -23,7 +23,6 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: 'Adesco Graphics - Web Development, Design & IT Solutions',
   description: 'Professional web development, web design, content creation, video production, and IT solutions. We build digital experiences that transform businesses.',
-  generator: 'v0.app',
 }
 
 export default function RootLayout({

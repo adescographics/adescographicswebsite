@@ -85,7 +85,7 @@ const products = [
 const categories = ['All', 'Design', 'Development', 'Content', 'Video', 'Marketing', 'IT'];
 
 export default function ShopPage() {
-  const [showOverlay, setShowOverlay] = useState(true);
+  const [showOverlay, setShowOverlay] = useState(false);
   const [animateContent, setAnimateContent] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [favorites, setFavorites] = useState<number[]>([]);

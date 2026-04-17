@@ -164,7 +164,7 @@ export default function ToolbarPage() {
                       {copiedId === item.id ? (
                         <>
                           <Check className="w-3 h-3" />
-                          Copied
+                          Copied to Clipboard!
                         </>
                       ) : (
                         <>
