@@ -4,21 +4,21 @@ import { useEffect, useState, useRef } from "react";
 
 const metrics = [
   { 
-    value: 1250, 
+    value: 316, 
     suffix: "", 
     prefix: "",
     label: "Projects delivered",
-    sublabel: "with 50+ active teams",
+    sublabel: "with 34+ happy clients",
   },
   { 
-    value: 98, 
+    value: 96, 
     suffix: "%", 
     prefix: "",
     label: "Client satisfaction",
     sublabel: "across all projects",
   },
   { 
-    value: 15, 
+    value: 6, 
     suffix: "y", 
     prefix: "",
     label: "Years of experience",
@@ -249,7 +249,7 @@ export function MetricsSection() {
             <div className="flex items-center gap-2 sm:gap-4 mb-4 sm:mb-6">
               <span className="flex items-center gap-1.5 sm:gap-2 px-2 sm:px-3 py-0.5 sm:py-1 bg-[#eca8d6]/10 text-[#eca8d6] text-[10px] sm:text-xs font-mono">
                 <span className="w-1.5 h-1.5 rounded-full bg-[#eca8d6] animate-pulse" />
-                LIVE
+                WE CARE
               </span>
               <span className="text-xs sm:text-sm font-mono text-muted-foreground">
                 {time ? `${time.toLocaleTimeString("en-GB")} UTC` : ""}
@@ -266,7 +266,7 @@ export function MetricsSection() {
           </div>
         </div>
 
-        {/* Organic graph image */}
+        {/* Portfolio graph image */}
         <div className={`w-full mb-0 transition-all duration-1000 delay-200 ${
           isVisible ? "opacity-100" : "opacity-0"
         }`}>
@@ -332,7 +332,7 @@ export function MetricsSection() {
           <span>Web Design</span>
           <span>Video Production</span>
           <span>IT Solutions</span>
-          <span className="text-foreground">+4 more services</span>
+          <span className="text-foreground">with many other more services</span>
         </div>
       </div>
     </section>

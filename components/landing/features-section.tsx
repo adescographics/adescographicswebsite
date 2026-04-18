@@ -4,28 +4,10 @@ import { useEffect, useRef, useState } from "react";
 
 const features = [
   {
-    number: "01",
-    title: "Web Development",
-    description: "Custom-built websites and web applications tailored to your business needs. From responsive designs to complex enterprise solutions.",
-    stats: { value: "100%", label: "responsive design" },
-  },
-  {
-    number: "02",
-    title: "Web Design",
-    description: "Beautiful, intuitive user interfaces that engage and convert. We design experiences that users love and businesses trust.",
-    stats: { value: "1M+", label: "page views" },
-  },
-  {
-    number: "03",
-    title: "Content & Video Creation",
-    description: "Compelling content and professional videos that tell your story. From concept to production, we create media that resonates.",
-    stats: { value: "50+", label: "video projects" },
-  },
-  {
-    number: "04",
-    title: "IT Solutions & Support",
-    description: "Comprehensive IT services including system recovery, hardware upgrades, OS installations, and 24/7 technical support.",
-    stats: { value: "24/7", label: "support available" },
+    number: "",
+    title: "Welcome To Our Website !",
+    description: "You are currently viewing an early version of our website- a simple  MVP built to get things started. We're actively working on adding new features and improving your experience. Stay tuned, there's a lot more coming soon.",
+    stats: { value: "", label: "Thank you for your co-operation and patience so far." },
   },
 ];
 
@@ -158,7 +140,7 @@ export function FeaturesSection() {
             <div className="lg:col-span-7">
               <span className="inline-flex items-center gap-3 text-xs sm:text-sm font-mono text-muted-foreground mb-4 sm:mb-6">
                 <span className="w-8 sm:w-12 h-px bg-foreground/30" />
-                Our Services
+                Working with accuracy, speed and efficiency. 
               </span>
               <h2
                 className={`text-4xl sm:text-5xl md:text-6xl md:text-7xl lg:text-[128px] font-display tracking-tight leading-[0.9] transition-all duration-1000 ${

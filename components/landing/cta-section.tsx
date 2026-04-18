@@ -87,7 +87,7 @@ export function CtaSection() {
               <div className="hidden lg:flex items-end justify-center w-[600px] h-[650px] -mr-16">
                 <img
                   src="/images/stairs.jpg"
-                  alt="Two trees connected by glowing "
+                  alt="cta img "
                   className="w-full h-full object-contain object-bottom"
                 />
               </div>
