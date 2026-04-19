@@ -32,7 +32,6 @@ const tools = [
   { id: "figma", name: "Figma", category: "Design" },
   { id: "photoshop", name: "Adobe Photoshop", category: "Design" },
   { id: "office", name: "Microsoft Office", category: "Productivity" },
-
   { id: "nextjs", name: "Next.js", category: "Framework" },
   { id: "vite", name: "Vite", category: "Build" },
   { id: "github", name: "GitHub", category: "Collaboration" },
