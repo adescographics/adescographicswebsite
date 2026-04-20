@@ -131,14 +131,14 @@ export function IntegrationsSection() {
           }`}
         >
           <p className="text-muted-foreground mb-6">
-            Need a custom integration? We support 100+ more services.
+           Want to see other tools so you can integrate with your existing tools to your project?
           </p>
 
           <a
-            href="/contact"
+            href="/tools"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-white/5 hover:bg-white/10 text-white font-medium transition-all duration-300 backdrop-blur"
           >
-            Get in touch
+            Yes, Please!
             <span className="group-hover:translate-x-1 transition-transform">
               &rarr;
             </span>
