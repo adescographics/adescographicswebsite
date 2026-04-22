@@ -249,10 +249,10 @@ export function MetricsSection() {
             <div className="flex items-center gap-2 sm:gap-4 mb-4 sm:mb-6">
               <span className="flex items-center gap-1.5 sm:gap-2 px-2 sm:px-3 py-0.5 sm:py-1 bg-[#eca8d6]/10 text-[#eca8d6] text-[10px] sm:text-xs font-mono">
                 <span className="w-1.5 h-1.5 rounded-full bg-[#eca8d6] animate-pulse" />
-                WE CARE
+                LIVE STATS
               </span>
               <span className="text-xs sm:text-sm font-mono text-muted-foreground">
-                {time ? `${time.toLocaleTimeString("en-GB")} UTC` : ""}
+                {time ? `${time.toLocaleTimeString("en-GB")} WAT` : ""}
               </span>
             </div>
 

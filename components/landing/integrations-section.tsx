@@ -69,15 +69,14 @@ export function IntegrationsSection() {
           </span>
 
           <h2 className="text-6xl md:text-7xl lg:text-[100px] font-display tracking-tight leading-[0.9] mb-6 text-white">
-            Trusted by
+            Tools We Use
             <br />
             <span className="text-muted-foreground">
-              industry leaders.
             </span>
           </h2>
 
           <p className="text-base lg:text-lg text-muted-foreground max-w-2xl mx-auto mt-6">
-            Comprehensive digital solutions that transform your business
+            Here are some of the tools and software used to transform your business and to meet your digital needs.
           </p>
         </div>
 
